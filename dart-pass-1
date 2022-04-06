@@ -1,0 +1,3 @@
+Because the const variables must be initialized with a constant value , that means the variable hour can't be updated .
+the method DateTime.now() it's going to always be updated .
+so we can change the const variable with final or even int will be run without any error.
