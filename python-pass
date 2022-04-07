@@ -1,0 +1,13 @@
+def test():
+    number_list = []
+    number = int(input("Enter x value: "))
+    if number > 0 and number <= 10:
+        for i in range(number):
+            y = int(input("Enter the numbers: "))
+            number_list.append(y)
+        for x in range(0, len(number_list)):
+                if number_list[x] % 2 == 0:
+                    print("Even: ",number_list[x])
+                else:
+                    print("Odd: ",number_list[x])
+test()
